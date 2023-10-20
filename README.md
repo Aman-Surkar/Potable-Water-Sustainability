@@ -100,7 +100,7 @@ _INSTRUCTIONS: The following deliverables should be officially posted to your My
 
 ### Solution demo video
 
-[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+https://youtu.be/a8_oS8rFrSc?si=GqtF_KQo3QYfI9g2
 
 ### Project development roadmap
 
