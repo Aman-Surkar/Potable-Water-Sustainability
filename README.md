@@ -114,7 +114,10 @@ In the future we plan to...
 
 See below for our proposed schedule on next steps after Call for Code 2023 submission.
 
-![Roadmap](./images/roadmap.jpg)
+![Project devlopment roadmap_page-0001](https://github.com/Aman-Surkar/Potable-Water-Sustainability/assets/99606590/a2f73ad0-02ef-4445-988b-d97b6c90293a)
+
+![Project devlopment roadmap_page-0002](https://github.com/Aman-Surkar/Potable-Water-Sustainability/assets/99606590/5f88fd55-cae2-483e-8270-eaed831110e5)
+
 
 
 ### How to run the project
