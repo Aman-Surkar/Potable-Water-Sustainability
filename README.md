@@ -38,10 +38,10 @@ Our solution would display the water potability result based on the sampling dat
 
 Water quality assessment is the process of evaluating the physical, chemical, and biological characteristics of water to determine its suitability for a specific purpose. This can include drinking water, irrigation, recreation, and industrial use. Water quality assessment is important for protecting human health and the environment.
 Water quality assessment is important for identifying and managing water pollution risks. It can also be used to track changes in water quality over time and to evaluate the effectiveness of water treatment and management programs.<br>
-How is water quality assessed?<br>
+**How is water quality assessed**?<br>
 Water quality assessment typically involves collecting water samples from different locations and testing them for a variety of parameters. These parameters may include physical parameters such as pH value, Hardness, Solids, Chloramines, Sulfates, Conductivity, Organic Carbon, Trihalomethanes, Turbidity.
 The results of the water quality tests are compared to established standards to determine whether the water is suitable for its intended use. For example, drinking water must meet certain standards for microbiological, chemical, and physical quality.<br>
-Solution proposed by team:<br>
+**Solution proposed by team**:<br>
 **Dataset**: Gather water quality data from various sources, including sensors, government databases, or field measurements. Ensure the data includes parameters like pH value, Hardness, Solids, Chloramines, Sulfates, Conductivity, Organic Carbon, Trihalomethanes, Turbidity. But these parameters have been already monitored and gathered in the form of datasets which are available online. One such dataset was used for training the model. Link: Water Quality (kaggle.com)<br>
 **Platform**: IBM Cloud provides a range of cloud services and solutions that cater to businesses and developers looking to build, deploy, and manage applications and services in the cloud. It offers a suite of AI and machine learning services, including IBM Watson, to help businesses build and deploy AI-powered applications. A project named “Water Quality Assessment” was created along with Machine Leaning resource and was integrated with project. Further, dataset was added to the project for processing. <br>
 **Model Processing and Training**: IBM WatsonX has been one of the leading AI and data platform. It provides one stop complete solution for AI model processing. One of the service is AutoML. It is tool that streamlines the process of developing machine learning models. AutoML was used as the primary resource integrated with Machine Learning Instance. The dataset was fed to AutoML and the training was started. It automatically trains over numerous algorithms and lists the best accuracy model.<br>
@@ -68,7 +68,7 @@ Diagram and step-by-step description of the flow of our solution:
 
 ![Water Quality (2)](https://github.com/Aman-Surkar/Potable-Water-Sustainability/assets/99606590/8f12fa75-f27b-4bee-97e1-07c1334cb522)
 
-1. Uploaded Dataset.
+1. Upload Dataset.
 2. WatsonX's sub-service Auto Ai trains the dataset and creates a model.
 3. Trained model is deployed in Deployment Space. This deployment is accessible using endpoints.
 4. The UI-Frontend gets input from user and sends them to backend flask server.
