@@ -63,7 +63,24 @@ More detail is available in our [description document](./docs/DESCRIPTION.md).
 
 ### IBM AI service(s) used
 
-_INSTRUCTIONS: Included here is a list of commonly used IBM AI services. Remove any services you did not use, or add others from the linked catalog not already listed here. Leave only those included in your solution code. Provide details on where and how you used each IBM AI service to help judges review your implementation. Remove these instructions._
+Listing of all IBM AI services used in your solution code and description of how they were used
+
+ 
+
+Watsonx :-
+Watsonx was used in our solution as it acts like a platform where we can train and deploy machine learning model. Under watsonx we created a project for testing water potability. Watsonx instance was linked with a cloud storage object  and it provided use storage to upload and save datasets. Watsonx provided us the capability to properly visualise the dataset using tools like historgram, line graph, scatterplots etc. It also provided us with assets like auto ai experiment to train our models. Finally watsonx also provided us the capability to store the trained model and deploy it.
+
+ 
+
+Under watsonx we used the following services
+
+ 
+
+1. Auto Ai experiment:- Auto AI experiment provides a platform to train and build models. We used a foundation binary classifier model. The binary classifier   model was trained in 9 pipelines and hence its generated 9 different models. We used the model with the highest accuracy of around 66%. The model was of type P4-XGB classifier model
+
+ 
+
+2. Watsonx deployments:- The model was deployed using deployment facility provided by IBM watsonx. Once the model was deployed , we could access it making use of API keys and access tokens.
 
 - [IBM Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
 - [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
