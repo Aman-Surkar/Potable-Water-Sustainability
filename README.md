@@ -63,10 +63,6 @@ More detail is available in our [description document](./docs/DESCRIPTION.md).
 
 ### IBM AI service(s) used
 
-Listing of all IBM AI services used in your solution code and description of how they were used
-
- 
-
 Watsonx :-
 Watsonx was used in our solution as it acts like a platform where we can train and deploy machine learning model. Under watsonx we created a project for testing water potability. Watsonx instance was linked with a cloud storage object  and it provided use storage to upload and save datasets. Watsonx provided us the capability to properly visualise the dataset using tools like historgram, line graph, scatterplots etc. It also provided us with assets like auto ai experiment to train our models. Finally watsonx also provided us the capability to store the trained model and deploy it.
 
@@ -82,12 +78,8 @@ Under watsonx we used the following services
 
 2. Watsonx deployments:- The model was deployed using deployment facility provided by IBM watsonx. Once the model was deployed , we could access it making use of API keys and access tokens.
 
-- [IBM Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
+- Cloud Storage Object:- IBM cloud storage object was created and linked to watsonx. Cloud storage object was used to store the training datasets ie the CSV files. The model trained by the auto ai experiment was also stored in the cloud storage object
+ 
 
 ### Other IBM technology used
 
