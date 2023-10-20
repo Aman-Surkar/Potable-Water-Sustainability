@@ -116,46 +116,15 @@ See below for our proposed schedule on next steps after Call for Code 2023 submi
 
 ![Roadmap](./images/roadmap.jpg)
 
-## Additional details
-
-_INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
 
 ### How to run the project
 
-INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
-
-### Live demo
-
-You can find a running system to test at...
-
-See our [description document](./docs/DESCRIPTION.md) for log in credentials.
+- Clone the repo git clone https://github.com/smartvibs8876/WaterPotabilityBackEndFlask.git
+- Navigate to the project cd WaterPotabilityBackEndFlask
+- Install dependencies pip install -r requirements.txt
+- Run the script python script.py
+- App will run on localhost port 2000. So hit localhost:2000 in browser
 
 ---
 
-_INSTRUCTIONS: You can remove the below section from your specific project README._
 
-## About this template
-
-### Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-### Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-### Authors
-
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-### License
-
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
-
-### Acknowledgments
-
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
