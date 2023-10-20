@@ -78,10 +78,10 @@ Under watsonx we used the following services
 
 2. Watsonx deployments:- The model was deployed using deployment facility provided by IBM watsonx. Once the model was deployed , we could access it making use of API keys and access tokens.
 
-- Cloud Storage Object:- IBM cloud storage object was created and linked to watsonx. Cloud storage object was used to store the training datasets ie the CSV files. The model trained by the auto ai experiment was also stored in the cloud storage object
- 
 
 ### Other IBM technology used
+
+- Cloud Storage Object:- IBM cloud storage object was created and linked to watsonx. Cloud storage object was used to store the training datasets ie the CSV files. The model trained by the auto ai experiment was also stored in the cloud storage object
 
 INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to/details on exactly where these were used in your code, that would help the judges review your submission.
 
