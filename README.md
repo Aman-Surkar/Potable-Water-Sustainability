@@ -90,7 +90,7 @@ The project currently does the following things.
 ### How to run the project
 
 - Clone the repo `git clone https://github.com/smartvibs8876/WaterPotabilityBackEndFlask.git`
-- Navigate to the project `cd WaterPotabilityBackEndFlask`
+- Navigate to the project `cd Portable-Water-Sustainability/sample-flask-app`
 - Install dependencies `pip install -r requirements.txt`
 - Run the script `python script.py`
 - App will run on localhost port 2000. So hit localhost:2000 in browser
