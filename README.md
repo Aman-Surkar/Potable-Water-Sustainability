@@ -83,13 +83,11 @@ Under watsonx we used the following services
 
 - Cloud Storage Object:- IBM cloud storage object was created and linked to watsonx. Cloud storage object was used to store the training datasets ie the CSV files. The model trained by the auto ai experiment was also stored in the cloud storage object
 
-INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to/details on exactly where these were used in your code, that would help the judges review your submission.
-
 ### Solution architecture
 
 Diagram and step-by-step description of the flow of our solution:
 
-![Video transcription/translaftion app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![Water Quality (2)](https://github.com/Aman-Surkar/Potable-Water-Sustainability/assets/99606590/8f12fa75-f27b-4bee-97e1-07c1334cb522)
 
 1. The user navigates to the site and uploads a video file.
 2. Watson Speech to Text processes the audio and extracts the text.
