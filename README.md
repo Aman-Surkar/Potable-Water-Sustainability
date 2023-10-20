@@ -34,11 +34,14 @@ _INSTRUCTIONS: Complete all required deliverable sections below._
 
 ### The issue we are hoping to solve
 
-REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainability problem your solution is meant to address.
+Water contamination is becoming major issue due to :
+a) Sewage lines getting mixed with the potable residential water lines  
+b) Hazardous/Industrial sewage getting disposed either in open places or in water bodies 
+Our solution would check the contamination of water by measuring water quality at sampling points
 
 ### How our technology solution can help
 
-REPLACE THIS SENTENCE with a short description of your team's solution, in about 10 words.
+Our solution would display the water potability result based on the sampling data fed to the solution
 
 ### Our idea
 
