@@ -20,15 +20,6 @@ _New to Git and GitHub? This free online course will get you up to speed quickly
   - [Project development roadmap](#project-development-roadmap)
 - [Additional details](#additional-details)
   - [How to run the project](#how-to-run-the-project)
-  - [Live demo](#live-demo)
-- [About this template](#about-this-template)
-  - [Contributing](#contributing)
-  - [Versioning](#versioning)
-  - [Authors](#authors)
-  - [License](#license)
-  - [Acknowledgments](#acknowledgments)
-
-_INSTRUCTIONS: Complete all required deliverable sections below._
 
 ## Project summary
 
@@ -36,21 +27,21 @@ _INSTRUCTIONS: Complete all required deliverable sections below._
 
 Water contamination is becoming major issue due to :
 a) Sewage lines getting mixed with the potable residential water lines  
-b) Hazardous/Industrial sewage getting disposed either in open places or in water bodies 
-Our solution would check the contamination of water by measuring water quality at sampling points
+b) Hazardous/Industrial sewage getting disposed either in open places or in water bodies <br>
+Our solution would check the contamination of water by measuring water quality at sampling points.
 
 ### How our technology solution can help
 
-Our solution would display the water potability result based on the sampling data fed to the solution
+Our solution would display the water potability result based on the sampling data fed to the solution.
 
 ### Our idea
 
 Water quality assessment is the process of evaluating the physical, chemical, and biological characteristics of water to determine its suitability for a specific purpose. This can include drinking water, irrigation, recreation, and industrial use. Water quality assessment is important for protecting human health and the environment.
 Water quality assessment is important for identifying and managing water pollution risks. It can also be used to track changes in water quality over time and to evaluate the effectiveness of water treatment and management programs.<br>
-How is water quality assessed?
+How is water quality assessed?<br>
 Water quality assessment typically involves collecting water samples from different locations and testing them for a variety of parameters. These parameters may include physical parameters such as pH value, Hardness, Solids, Chloramines, Sulfates, Conductivity, Organic Carbon, Trihalomethanes, Turbidity.
 The results of the water quality tests are compared to established standards to determine whether the water is suitable for its intended use. For example, drinking water must meet certain standards for microbiological, chemical, and physical quality.<br>
-Solution proposed by team:
+Solution proposed by team:<br>
 **Dataset**: Gather water quality data from various sources, including sensors, government databases, or field measurements. Ensure the data includes parameters like pH value, Hardness, Solids, Chloramines, Sulfates, Conductivity, Organic Carbon, Trihalomethanes, Turbidity. But these parameters have been already monitored and gathered in the form of datasets which are available online. One such dataset was used for training the model. Link: Water Quality (kaggle.com)<br>
 **Platform**: IBM Cloud provides a range of cloud services and solutions that cater to businesses and developers looking to build, deploy, and manage applications and services in the cloud. It offers a suite of AI and machine learning services, including IBM Watson, to help businesses build and deploy AI-powered applications. A project named “Water Quality Assessment” was created along with Machine Leaning resource and was integrated with project. Further, dataset was added to the project for processing. <br>
 **Model Processing and Training**: IBM WatsonX has been one of the leading AI and data platform. It provides one stop complete solution for AI model processing. One of the service is AutoML. It is tool that streamlines the process of developing machine learning models. AutoML was used as the primary resource integrated with Machine Learning Instance. The dataset was fed to AutoML and the training was started. It automatically trains over numerous algorithms and lists the best accuracy model.<br>
@@ -83,6 +74,8 @@ Diagram and step-by-step description of the flow of our solution:
 4. The UI-Frontend gets input from user and sends them to backend flask server.
 5. The Flask server redirects the inputs to model, the model predicts the outcome on the basis of the inputs.
 6. The user gets the result displayed over the frontend.
+
+## Presentation materials
 
 ### Solution demo video
 
